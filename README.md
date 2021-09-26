@@ -27,7 +27,7 @@ Below is the original school summary:
 <img width="954" alt="OriginalSchoolSummaryTHS" src="https://user-images.githubusercontent.com/87828174/134785984-27718242-80f7-4a1a-9d88-a463c148f95f.png">
 
 
-And here is the updated district summary after taking the math, reading and overall scores and passing percentages for grades 10, 11 and 12 and replacing the values in the previous dataframe with them. This was done to mantain academic integrity by not counting the 9th grade results at all and only counting and creating a summary with 10th, 11th and 12th grade results for Thomas High School.
+And here is the updated school summary after taking the math, reading and overall scores and passing percentages for grades 10, 11 and 12 and replacing the values in the previous dataframe with them. This was done to mantain academic integrity by not counting the 9th grade results at all and only counting and creating a summary with 10th, 11th and 12th grade results for Thomas High School.
 
 <img width="961" alt="Columns heads" src="https://user-images.githubusercontent.com/87828174/134786756-d28a2aff-9367-4151-8cfa-0be577bc3d36.png">
 <img width="961" alt="NewSchoolummary" src="https://user-images.githubusercontent.com/87828174/134785991-e3efc82b-4076-4b18-b23d-8f15b16f137b.png">
@@ -70,7 +70,7 @@ and the new updated averages for reading:
 
 <img width="155" alt="AVGNEWReading" src="https://user-images.githubusercontent.com/87828174/134787380-9fb6f8a6-b962-433f-882c-26d195a0f72b.png">
 
-The following changes are observed in the overall school averages per grade when the 9th grade results for Thomas High School are not considered:
+The following changes are observed in the overall school averages per grade when the 9th grade results for Thomas High School are considered as NaNs:
   1) 9th grade average math scores across all schools decreases
   2) Rest of the grade averages for maths across all schools remains unchanged
   3) 9th grade average reading scores across all schools decreases
@@ -127,3 +127,4 @@ One can see the only change is in the Charter type category not for District typ
   5) Overall Percentage Passing for Charter Type schools decreases
 
 ## Summary
+After the reading and math scores for Thomas High School 9th grade have been replaced, the following four changes are observed. The analysis of the school district data according to different paramaters of school type, size, funding budget and in general by schools all follow a similar trend. Average math scores decrease while average reading scores increase. Passing percentages for reading, maths and overall all decrease. Another noticeable change is that all average scores and passing percentages fo maths and reading across 9th grade for all schools all decrease. Lastly in the district summary, the average math score, math passing percentage, reading passing percentage and overall passing percentage decrease. However the average reading score remains the same.
